@@ -1,0 +1,66 @@
+#footer{
+	height: 400px;
+	width: 100%;
+	background:#313132;
+	.footerItem{
+		position: relative;
+		top: 100px;
+
+		.items{
+			margin-top: 50px;
+		}
+
+
+		i{
+			margin:5px;
+			font-size:1.4em;
+			color:#777;
+			cursor:pointer;
+			transition: all .2s linear;
+			&:hover{
+				color:#42a4ff;
+			}
+		}
+
+		h3{
+			position:relative;
+			bottom: 40px;
+			font-size: 22px;
+			color: white;
+
+		}
+		p{	
+			    font-size: 16px;
+				color: #777;
+
+		}
+		input{
+			border:none;
+			padding: 11px 100px 13px 20px;
+			border-radius: 50px;
+		}
+		button{
+			border:none;
+			padding: 11px 30px 13px 20px;
+			border-radius: 50px;
+			position:absolute;
+			border-radius:50px;
+			right: 60px;
+		}
+
+		.line{
+			width:300px;
+			height: 2px;
+			background:white;
+			position: relative;
+			bottom: 30px;
+		}
+		.mail{
+			cursor: pointer;
+			color: #42a4ff;
+			&:hover{
+				color: white;
+			}
+		}
+	}
+}

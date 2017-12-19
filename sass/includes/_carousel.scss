@@ -1,0 +1,60 @@
+#myCarousel{
+
+	margin: 0px -10px;
+	transition: all .4s linear;
+	
+	.carousel-inner{
+		h1{
+			font-size: 2.6em;
+			text-align: left;
+			position: relative;
+			width: 60%;
+			right: 180px;
+			bottom: 40px;
+			color: black !important;
+		}
+		button{
+		border-radius: 30px;
+		border:none;
+		position: relative;
+    	right: 440px;
+    	bottom: 20px;
+    	transition: all .2s linear;
+			&:hover{
+			background:#42a4ff;
+			}
+		}
+		h5{
+			text-align: left;
+			position: relative;
+			font-size: 1.4em;
+			width: 60%;
+			right: 180px;
+			bottom: 30px;
+			color: gray;
+		}
+	
+
+
+	}
+	li{
+		width: 13px;
+		height: 13px;
+		position: relative;
+		top: 25px;
+    	right: 533px;		
+    	background: gray;
+		margin:5px;
+	}
+
+	li{
+		&:hover{
+		background:#42a4ff;
+	}
+
+	
+	
+	
+	
+	}
+}

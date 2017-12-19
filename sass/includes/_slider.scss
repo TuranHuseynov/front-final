@@ -1,0 +1,26 @@
+#slider{
+	margin-top: 40px;
+	height: 500px;
+	width: 100%;
+
+		.item{
+		height:600px;
+		margin:60px -10px;
+		}
+		.slide{
+			height:335px;
+			position:relative;
+			overflow:hidden;
+		}
+			button{
+				color: #fff;
+    			background-color: #42a4ff;
+    			border-color: #42a4ff;
+    			border-radius: 30px;
+    			padding: 10px 16px;
+    			font-size: 18px;
+				position: relative;
+				top: 20px;
+				left: 600px;
+			}
+}

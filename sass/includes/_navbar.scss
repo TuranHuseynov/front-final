@@ -1,0 +1,109 @@
+#navbar{
+	.topNavBar{
+		padding:15px 0px;
+		background:#084884;
+		margin:0 -15px;
+		color:white;
+		i{
+			margin:5px;
+			font-size:1.5em;
+			color:#42a4ff;
+			cursor:pointer;
+			transition: all .2s linear;
+			&:hover{
+				color:white;
+			}
+		}
+			p{	font-size:15px;
+			color: #a5d4ff;
+			}
+				button{
+					border-radius: 30px;
+					padding: 2.5px 25px;
+				}
+	}
+	.mainNavBar{
+		padding:15px 0px;
+		background:lighten(#084884,20%);
+		margin:0 -15px;
+		color:white;
+		font-size: 1.5em;
+
+		.nav-xs{
+			width:200px;
+			padding:20px;
+			padding-top:50px;
+
+			margin:0px -15px;
+			height:100vh;
+			// display: none;
+			background:lighten(#084884,20%);
+			position:fixed;
+			top:0px;
+			left:-100%;
+			z-index: 3;
+			i{
+				color:white;
+				position:absolute;
+				right:20px;
+				top:20px;
+			}
+		}
+
+		.lines{
+			width: 1050px;
+			background: #42a4ff;
+			height: 2px;
+			position: relative;
+			left: 30px;
+			bottom: 4px;
+		}
+
+		img{
+			padding-right: 15px;
+			cursor:pointer;
+		}
+		span{
+			margin-left: 20px;
+		}
+
+		p{
+			font-size: 0.65em;
+			color: #dadfe8;
+			cursor: pointer;
+			transition: all .2s linear;
+			&:hover{
+				color: white;
+			}
+		}
+		
+		.container{
+			.row{
+				.navbar{
+					min-height:20px;
+					margin-bottom:0px;
+					padding-top:15px;
+				}
+			}
+		}
+
+		ul{
+
+
+			li{
+				margin-left: 20px;
+				background: lighten(#084884,20%);
+
+				a{
+					color:white;
+					padding:10px 15px;
+					transition: all .2s linear;
+					&:hover{
+						background:lighten(#084884,20%);
+						color:#dadfe8;
+					}
+				}
+			}
+		}
+	}
+}

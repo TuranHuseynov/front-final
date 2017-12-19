@@ -1,0 +1,56 @@
+#counter{
+	padding: 110px 0px;
+	width: 100%;
+	height: 350px;
+
+	
+	.oneInterval{
+		font-size: 2.5em;
+		position: relative;
+		left: 110px;
+		bottom: 40px;
+	}
+	.twoInterval{
+		font-size: 2.5em;
+		position: relative;
+		left: 110px;
+		bottom: 40px;
+	}
+	.threeInterval{
+		font-size: 2.5em;
+		position: relative;
+		left: 110px;
+		bottom: 40px;
+	}
+	.fourInterval{
+		font-size: 2.4em;
+		position: relative;
+		left: 110px;
+		bottom: 40px;
+	}
+	.line{
+		height: 2px;
+		width: 100px;
+		background:black;
+		position:relative;
+		left: 100px;
+		bottom: 40px;
+	}
+		h4{
+		text-align: center;
+		font-size: 1.6em;
+		position: relative;
+		bottom: 30px;
+		}
+		i{
+		height: 140px;
+		margin-left: 100px;
+		font-size: 90px;
+		color: #1872c5;
+		cursor: pointer;
+		}
+		p{
+		position:relative;
+		right: 5px;
+		}
+}
